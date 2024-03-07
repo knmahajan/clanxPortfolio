@@ -1,0 +1,27 @@
+{
+  "name": "clanx-portfolio",
+  "version": "1.0.0",
+  "description": "A portfolio tracking API that allows adding/deleting/updating trades and can do basic return calculations etc. The portfolio is essentially a collection of stocks, each stock having multiple trades (buy/sell). Each trade can have only one stock, a quantity and a date.",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knmahajan/clanxPortfolio.git"
+  },
+  "keywords": [
+    "npm",
+    "nodejs",
+    "expressjs",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "Kushal Mahajan",
+  "license": "ISC",
+  "homepage": "https://github.com/knmahajan/clanxPortfolio#readme",
+  "dependencies": {
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1"
+  }
+}
